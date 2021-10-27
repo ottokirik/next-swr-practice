@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server -d 2000 -p 5000 --watch db.json"
   },
   "dependencies": {
+    "axios": "^0.24.0",
+    "json-server": "^0.17.0",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sharp": "^0.29.2",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "8.1.0",
